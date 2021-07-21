@@ -3,7 +3,7 @@ version: ""
   services:
     usr:
       build: .
-      command: npm start
+      command: yarn start
       ports: 
       - "3000:3000"
       volumes: 
